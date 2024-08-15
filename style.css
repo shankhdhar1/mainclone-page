@@ -1,0 +1,145 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Kinetika Bold";
+    font-family: "Open Sans", "sen-serif";
+  }
+  html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    background-color: rgba(215,205,200,255);
+  }
+  .mobile-cell img{
+    width: 65rem;
+    height: 55rem;
+    background-color: rgba(215,205,200,255);
+    margin: 0px;
+    border: none;
+
+  }
+  .contant-cell{
+    background-color: rgba(215,205,200,255);
+    padding: 8rem 15rem;
+  
+  }
+  .contant-cell h1{
+    font-size: 4.2rem;
+    font-weight: bold;
+  }
+  .contant-cell h2{
+    font-size: 2rem;
+    margin: 1rem 0rem;
+  }
+  .contant-cell p{
+    font-size: 1.8rem;
+    margin: 2rem 0rem;
+    text-align: justify;
+  }
+  .contant-cell button{
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 1.9rem 3.5rem;
+    margin: 2rem 0rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border:none ;
+  }
+  .contant-cell button:hover{
+    background-color: rgba(240,115,60,255);
+    border:none ;
+  }
+  
+  .box-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.box-contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0rem 10rem;
+  }
+  .box-model{
+    background-color: rgba(240,115,60,255);
+    color: white;
+    padding: 5rem;
+    width: 40rem;
+    height: 20rem;
+    border: 2px solid rgba(215,205,200,255);
+    border-radius: 10px;
+   
+  }
+  .box-model h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+  }
+  .paragraph-wrapper{
+    margin: 2rem 0rem;
+  }
+  .box-model p{
+    font-size: 1.7rem;
+  }
+  .icon-wrapper{
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    
+  }
+  .icon-wrapper svg{
+   margin-right: 0.5rem;
+    
+  }
+  
+@media (max-width: 62em) {
+  .mobile-cell img{
+    width: 90%;
+    height: 60vh;
+  }
+  .contant-cell{
+    padding: 1rem 2.5rem;
+  
+  }
+  .box-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.contant-cell p{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-contant{
+  display: flex;
+  flex-direction: column;
+
+  margin:0rem 1rem;
+  gap: 1rem;
+}
+.box-model{
+
+  width: 100%;
+ 
+}
+}
